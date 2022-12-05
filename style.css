@@ -36,3 +36,53 @@ a {
     display: flex;
     gap: 20px;
 }
+
+.hero {
+    padding: 110px 210px;
+    background-color: #1F2937;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.hero-left {
+    display: flex;
+    flex-direction: column;
+    width: 450px;
+    gap: 10px;
+}
+
+.hero-left h1 {
+    margin: 0px;
+    font-size: 48px;
+    font-weight: extra-bold;
+    color: #F9FAF8;
+}
+
+.hero-left p {
+    margin: 0px;
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.hero-left button {
+    margin-top: 10px;
+    border-radius: 7px;
+    width: 120px;
+    height: 35px;
+    background-color: #3882F6;
+    border-color: #3882F6;
+    font-size: 18px;
+    font-weight: bold;
+    color: #F9FAF8;
+}
+
+.hero-right {
+    background-color: rgb(91, 91, 91);
+    width: 500px;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #F9FAF8;
+}
